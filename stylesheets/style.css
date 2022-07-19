@@ -62,19 +62,27 @@ header {
     border-radius: 5px;
 }
 
+.aside-menu ul :nth-child(3) {
+    background-color: red;
+    color: white;
+}
+
+.aside-menu ul :nth-child(3) a {
+    color: white;
+}
+
 .aside-menu li {
     list-style: none;
     margin-bottom: 24px;
     text-align: center;
     width: 143px;
-    background-color: red;
+    background-color: white;
     padding: 13px 5px;
-    color: white;
     border-radius: 5px;
 }
 
 .aside-menu a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 700;
 }
@@ -114,4 +122,67 @@ header {
 /*--------Blog-area End------*/
 
 /*--------Footer-area start------*/
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+.footer-content {
+    padding-top: 100px;
+}
+
+footer h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.footer-menu {
+    margin-top: 50px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.footer-media {
+    margin-top: 50px;
+}
+
+.footer-media ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-media ul li {
+    list-style: none;
+}
+
+.footer-media ul li a {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.copy-right {
+    background-color: #161515;
+}
+
+.copy-right h3 {
+    color: white;
+    padding: 8px;
+}
+
 /*--------Footer-area End------*/
