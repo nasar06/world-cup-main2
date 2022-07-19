@@ -1,8 +1,57 @@
+/*--------common-style start-----*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
+    padding: 7px 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/*--------ommon-style End------*/
+
 /*--------header-area start-----*/
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    padding: 30px 30px 0px 70px;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.header-info h1 {
+    font-size: 48px;
+}
+
+.header-img img {
+    height: 475px;
+}
+
 /*--------header-area End------*/
 
-/*--------players-area start------*/
-/*--------players-area End------*/
+/*--------Blog-area start------*/
+
+.blog {
+    display: grid;
+    grid-template-columns: 210px 846px;
+    column-gap: 22px;
+}
+
+/*--------Blog-area End------*/
 
 /*--------Footer-area start------*/
 /*--------Footer-area End------*/
