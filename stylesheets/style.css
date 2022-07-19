@@ -49,6 +49,66 @@ header {
     display: grid;
     grid-template-columns: 210px 846px;
     column-gap: 22px;
+    margin: 100px 0px;
+}
+
+.aside-menu {
+    margin-top: -15px;
+}
+
+.aside-menu ul {
+    background-color: black;
+    padding: 20px 27px;
+    border-radius: 5px;
+}
+
+.aside-menu li {
+    list-style: none;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 143px;
+    background-color: red;
+    padding: 13px 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.aside-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.playears {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.player {
+    border: 1px solid #e9e0e0;
+    border-radius: 10px;
+}
+
+.player-img img {
+    width: 272px;
+}
+
+.player-info {
+    padding: 15px;
+}
+
+.player-info button {
+    padding: 5px 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.player-cmd span {
+    padding-right: 16px;
+    color: #101010;
 }
 
 /*--------Blog-area End------*/
