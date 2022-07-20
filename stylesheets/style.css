@@ -28,9 +28,11 @@ body {
     background-color: #0d5426;
 }
 
-/*--------ommon-style End------*/
+/*--------Common-style End------*/
 
-/*--------header-area start-----*/
+/*---------------------
+        header-area start
+    -------------------------*/
 header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -64,8 +66,9 @@ header:hover {
 /*--------header-area End------*/
 
 
-
-/*--------Main-area start------*/
+/*---------------------
+        Main-area start
+    -------------------------*/
 main {
     margin: 150px 0px;
 }
@@ -122,7 +125,7 @@ main {
 }
 
 .player {
-    border: 1px solid #e9e0e0;
+    border: 1px solid #d1c8c8;
     border-radius: 10px;
 }
 
@@ -162,7 +165,10 @@ main {
 
 /*--------Blog-area End------*/
 
-/*--------Footer-area start------*/
+
+/*---------------------
+        Footer-area start
+    -------------------------*/
 footer {
     text-align: center;
     background-color: black;
@@ -229,7 +235,10 @@ footer h1 {
 /*--------Footer-area End------*/
 
 
-/*----------------------------Another Page---------*/
+
+/*---------------------
+        Another Page
+    -------------------------*/
 
 /*---------Matchs-Area-Start----*/
 
@@ -266,7 +275,9 @@ footer h1 {
 
 
 
-/*--------media Query--------*/
+/*---------------------
+        media Query
+    -------------------------*/
 
 /*-------mobile---------*/
 
@@ -334,8 +345,10 @@ footer h1 {
 }
 
 
+/*---------------------
+        Animation
+    -------------------------*/
 
-/*-----Animation--------*/
 
 @keyframes mymove {
     from {
