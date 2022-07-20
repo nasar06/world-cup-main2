@@ -21,6 +21,11 @@ body {
     border-radius: 5px;
     font-weight: 700;
     border: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #0d5426;
 }
 
 /*--------ommon-style End------*/
@@ -37,6 +42,11 @@ header {
     align-items: center;
     border-radius: 15px;
     margin-bottom: 50px;
+    transition: .5s;
+}
+
+header:hover {
+    background-color: #3b8787;
 }
 
 .header-info h1 {
@@ -321,4 +331,24 @@ footer h1 {
     .all-players {
         display: block;
     }
+}
+
+
+
+/*-----Animation--------*/
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 400px;
+        display: none;
+    }
+}
+
+.animation-1 {
+    animation: mymove 5s infinite;
+    position: relative;
 }
