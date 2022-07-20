@@ -9,17 +9,18 @@ body {
     font-family: 'Gentium Book Plus', serif;
 }
 
-main {
+.all-content {
     width: 80%;
     margin: auto;
 }
 
 .btn {
-    padding: 7px 25px;
+    padding: 10px 25px;
     color: white;
     background-color: red;
     border-radius: 5px;
     font-weight: 700;
+    border: none;
 }
 
 /*--------ommon-style End------*/
@@ -30,7 +31,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 100px;
     padding: 30px 30px 0px 70px;
-    background-color: black;
+    background-color: #49895f;
     color: white;
     justify-items: center;
     align-items: center;
@@ -42,19 +43,29 @@ header {
     font-size: 48px;
 }
 
+.header-info p {
+    text-overflow: ellipsis
+}
+
 .header-img img {
     height: 475px;
 }
 
 /*--------header-area End------*/
 
-/*--------Blog-area start------*/
 
+
+/*--------Main-area start------*/
+main {
+    margin: 150px 0px;
+}
+
+/*--------Blog-area start------*/
 .blog {
     display: grid;
     grid-template-columns: 210px 846px;
     column-gap: 22px;
-    margin: 100px 0px;
+    margin: 70px 0px;
 }
 
 .aside-menu {
@@ -123,6 +134,20 @@ header {
 .player-cmd span {
     padding-right: 16px;
     color: #101010;
+}
+
+.all-players {
+    text-align: center;
+    display: none;
+}
+
+.all-players a {
+    text-align: center;
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 /*--------Blog-area End------*/
@@ -291,5 +316,9 @@ footer h1 {
 
     .playears {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-players {
+        display: block;
     }
 }
