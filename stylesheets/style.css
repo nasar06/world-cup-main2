@@ -65,6 +65,8 @@ header {
     background-color: black;
     padding: 20px 27px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .aside-menu ul :nth-child(3) {
@@ -263,8 +265,9 @@ footer h1 {
 /*------------Ipad---------*/
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+
     header {
-        background-color: red;
+        column-gap: 10px;
     }
 
     header img {
@@ -279,5 +282,14 @@ footer h1 {
 
         background-color: white;
         font-size: 27px;
+        flex-direction: row;
+    }
+
+    .aside-menu ul li {
+        padding: 15px 36px;
+    }
+
+    .playears {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
